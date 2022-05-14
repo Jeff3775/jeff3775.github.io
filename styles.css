@@ -1,0 +1,189 @@
+body {
+    background-color: #faebd7;
+}
+
+/* header */
+h1 {
+    font-family: "Libre Baskerville";
+    text-align: center;
+    font-style: Bold;
+}
+h1::before,
+h1::after {
+    display: inline-block;
+    content: "";
+    border-top: .3rem solid black;
+    width: 10rem;
+    margin: 0 1rem;
+    transform: translateY(-1rem);
+  }
+header h2 {
+    font-family: "Zen Loop";
+    text-align: center;
+    position: relative;
+    top: -10px;
+}
+.container h2 {
+    position: relative;
+    top: 8px;
+    margin-left: 10px;
+    text-align: center;
+	text-decoration: underline;
+}
+
+/* special buttons */
+.button {
+    text-align: center;
+    padding-left: 0;
+}
+.button li{
+    display: inline;
+    list-style-type: none;
+    margin: 0 20px;
+    padding: 7px;
+    border: 1px solid rgba(245, 245, 220, 0);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.button li:active {
+    margin-top: 20px;
+    margin-bottom: 12px;
+    background-color: beige;
+    box-shadow: 0px 0px;
+}
+
+/* Commons */
+.container {
+    border: 1px solid black;
+	margin-bottom: 15px;
+	text-align: center;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.color-panel p {
+    text-align: center;
+	padding-top: 35px; 
+}
+
+/* Color settings */
+.color-panel.plum{
+    display: inline-block;
+    background-color: #DDA0DD;
+    /* padding-top: 50px; */
+	margin: 20px;
+    width: 200px;
+    height: 150px;
+	opacity: 0.80;
+}
+.color-panel.salmon{
+    display: inline-block;
+    background-color: #FFA07A;
+    /* padding-top: 50px; */
+	margin: 20px;
+    width: 200px;
+    height: 150px;
+	opacity: 0.80;
+}
+.color-panel.springgreen{
+    display: inline-block;
+    background-color: #00FF7F;
+    /* padding-top: 50px; */
+	margin: 20px;
+    width: 200px;
+    height: 150px;
+	opacity: 0.80;
+}
+.color-panel.turquoise{
+    display: inline-block;
+    background-color: #AFEEEE;
+    /* padding-top: 50px; */
+	margin: 20px;
+    width: 200px;
+    height: 150px;
+	opacity: 0.80;
+}
+
+/* font styles */
+.font-styles {
+	display: inline-block;
+}
+.font-styles p {
+    text-align: center;
+	padding: 0 20px;
+	font-size: 14px;
+}
+h3#inconsolata {
+	font-family: "Inconsolata";
+}
+h3#source-code-pro {
+	font-family: "Source Code Pro";
+}
+h3#montserrat-alternates {
+	font-family: "Montserrat Alternates";
+}
+
+.font1 .regular {
+	font-family: "Inconsolata";
+	font-weight: 400;
+}
+.font1 .extra-light {
+	font-family: "Inconsolata";
+	font-weight: 200;
+}
+.font1 .bold {
+	font-family: "Inconsolata";
+	font-weight: 700;
+}
+
+.font2 .regular {
+	font-family: "Source Code Pro";
+	font-weight: 400;
+}
+.font2 .extra-light {
+	font-family: "Source Code Pro";
+	font-weight: 200;
+}
+.font2 .bold {
+	font-family: "Source Code Pro";
+	font-weight: 700;
+}
+
+.font3 .regular {
+	font-family: "Montserrat Alternates";
+	font-weight: 400;
+}
+.font3 .extra-light {
+	font-family: "Montserrat Alternates";
+	font-weight: 200;
+}
+.font3 .bold {
+	font-family: "Montserrat Alternates";
+	font-weight: 700;
+}
+
+.text-styles li {
+	text-align: center;
+	list-style-position: inside;
+	font-size: 18px;
+}
+.text-styles #text1 {
+	margin-left: 40px;
+	text-align: center;
+	font-weight: 700;
+	font-size: 26px;
+	font-family: "Nunito Sans";
+}
+.text-styles #text2 {
+	margin-left: 40px;
+	text-align: center;
+	font-weight: 500;
+	font-size: 18px;
+	font-family: "Poppins";
+}
+.text-styles #text3 {
+	margin-left: 40px;
+	text-align: center;
+	font-weight: 400;
+	font-size: 14px;
+	font-family: "poppin";
+}
